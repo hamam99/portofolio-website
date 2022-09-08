@@ -61,3 +61,23 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES)*/
+@media screen and (max-width: 1024px) {
+    .container {
+        height: 68vh;
+    }
+}
+
+
+/* MEDIA QUERIES (SMALL DEVICES)*/
+@media screen and (max-width: 600px) {
+    .container {
+        height: 100vh;
+    }
+
+    .header__socials {
+        display: none;
+    }
+
+}
