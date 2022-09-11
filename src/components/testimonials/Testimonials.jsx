@@ -14,40 +14,14 @@ function Testimonials() {
         <article className="testimonials">
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar 1" />
-            <h5>Ernest Archiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              nesciunt. Accusantium impedit ea excepturi in recusandae?
-              Laudantium expedita nesciunt voluptate ex quia, animi pariatur
-              natus possimus similique suscipit. Eveniet, ullam!
-            </small>
           </div>
-        </article>
-
-        <article className="testimonials">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar 1" />
-            <h5>Ernest Archiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              nesciunt. Accusantium impedit ea excepturi in recusandae?
-              Laudantium expedita nesciunt voluptate ex quia, animi pariatur
-              natus possimus similique suscipit. Eveniet, ullam!
-            </small>
-          </div>
-        </article>
-
-        <article className="testimonials">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar 1" />
-            <h5>Ernest Archiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              nesciunt. Accusantium impedit ea excepturi in recusandae?
-              Laudantium expedita nesciunt voluptate ex quia, animi pariatur
-              natus possimus similique suscipit. Eveniet, ullam!
-            </small>
-          </div>
+          <h5>Ernest Archiever</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            nesciunt. Accusantium impedit ea excepturi in recusandae? Laudantium
+            expedita nesciunt voluptate ex quia, animi pariatur natus possimus
+            similique suscipit. Eveniet, ullam!
+          </small>
         </article>
       </div>
     </section>
