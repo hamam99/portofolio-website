@@ -2,6 +2,7 @@
     width: 40%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4rem;
 
 }
 
@@ -20,6 +21,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    margin-top: 1rem;
 }
 
 .client__review {
@@ -29,6 +31,10 @@
     width: 80%;
     margin: 0.8rem auto 0;
 
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
