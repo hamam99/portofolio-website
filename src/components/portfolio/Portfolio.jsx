@@ -20,31 +20,31 @@ function Portfolio() {
       image: IMG2,
       title: 'Portfolio 2',
       demo: 'https://www.github.com'
-    },
-    {
-      id: 3,
-      image: IMG3,
-      title: 'Portfolio 3',
-      demo: 'https://www.github.com'
-    },
-    {
-      id: 4,
-      image: IMG4,
-      title: 'Portfolio 4',
-      demo: 'https://www.github.com'
-    },
-    {
-      id: 5,
-      image: IMG5,
-      title: 'Portfolio 5',
-      demo: 'https://www.github.com'
-    },
-    {
-      id: 6,
-      image: IMG6,
-      title: 'Portfolio 6',
-      demo: 'https://www.github.com'
     }
+    // {
+    //   id: 3,
+    //   image: IMG3,
+    //   title: 'Portfolio 3',
+    //   demo: 'https://www.github.com'
+    // },
+    // {
+    //   id: 4,
+    //   image: IMG4,
+    //   title: 'Portfolio 4',
+    //   demo: 'https://www.github.com'
+    // },
+    // {
+    //   id: 5,
+    //   image: IMG5,
+    //   title: 'Portfolio 5',
+    //   demo: 'https://www.github.com'
+    // },
+    // {
+    //   id: 6,
+    //   image: IMG6,
+    //   title: 'Portfolio 6',
+    //   demo: 'https://www.github.com'
+    // }
   ]
   return (
     <section id="portfolio">
