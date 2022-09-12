@@ -1,8 +1,57 @@
 import React from 'react'
 import './contact.css'
+import { MdOutlineEmail } from 'react-icons/md'
+import { RiMessengerLine } from 'react-icons/ri'
+import { BsWhatsapp } from 'react-icons/bs'
 
 function Contact() {
-  return <section id="contact">Contact</section>
+  return (
+    <section id="contact">
+      <h5>Get In Touch</h5>
+      <h2>Contact Me</h2>
+
+      <div className="container contact__container">
+        <div className="contact__options">
+          <article className="contact__option">
+            <MdOutlineEmail />
+            <h4>Email</h4>
+            <h5>dummy.me@gmail.com</h5>
+            <a href="mailto:dummy@gmail.com" target={'_blank'} rel="noreferrer">
+              Send a message
+            </a>
+          </article>
+
+          <article className="contact__option">
+            <RiMessengerLine />
+            <h4>Messenger</h4>
+            <h5>hamam.nasrodin95</h5>
+            <a
+              href="https://m.me/hamam.nasrodin95"
+              target={'_blank'}
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+
+          <article className="contact__option">
+            <BsWhatsapp />
+            <h4>WhatsApp</h4>
+            <h5>+62234567890</h5>
+            <a
+              href="https://wa.me/+62234567890"
+              target={'_blank'}
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+        </div>
+
+        <form action=""></form>
+      </div>
+    </section>
+  )
 }
 
 export default Contact
