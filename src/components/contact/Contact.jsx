@@ -13,7 +13,7 @@ function Contact() {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>dummy.me@gmail.com</h5>
             <a href="mailto:dummy@gmail.com" target={'_blank'} rel="noreferrer">
@@ -22,7 +22,7 @@ function Contact() {
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine />
+            <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>hamam.nasrodin95</h5>
             <a
@@ -35,7 +35,7 @@ function Contact() {
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp />
+            <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+62234567890</h5>
             <a
